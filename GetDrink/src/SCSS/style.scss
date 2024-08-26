@@ -118,7 +118,7 @@ header {
     @include mixins.py(3%, 2%);
     .content {
       display: grid;
-      grid-template-columns: 20% 70%;
+      grid-template-columns: 25% 75%;
       align-items: center;
       text-align: center;
       @include mixins.py(2%, 2%);
