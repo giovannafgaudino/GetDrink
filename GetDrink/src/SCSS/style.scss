@@ -139,3 +139,42 @@ header {
     }
   }
 }
+.Section3 {
+  background-color: $color-yellow;
+  @include mixins.py(3%, 3%);
+  .section-three {
+    width: 80%;
+    margin: 0 auto;
+    h1 {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 1.8rem;
+      font-weight: 900;
+      color: $color-purple-grape;
+      @include mixins.py(0, 2%);
+    }
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;   
+      div{
+        border-right: 1px solid $color-purple-grape; 
+        
+        ul {
+            width: 80%;
+            
+            @include mixins.px(6%,1%);
+            @include mixins.py(2%, 3%);
+            list-style:none;
+            li {
+                // @include mixins.py(2%, 2%);
+                list-style:inside;
+                width: 100%;
+            }
+          }
+      }
+      div:last-child{
+        border: none;
+    }
+      
+    }
+  }
+}

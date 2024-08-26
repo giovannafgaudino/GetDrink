@@ -145,4 +145,44 @@ header nav .name-brand .slogan {
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.Section3 {
+  background-color: rgb(217, 233, 55);
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.Section3 .section-three {
+  width: 80%;
+  margin: 0 auto;
+}
+.Section3 .section-three h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: rgb(114, 14, 172);
+  padding-top: 0;
+  padding-bottom: 2%;
+}
+.Section3 .section-three .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.Section3 .section-three .content div {
+  border-right: 1px solid rgb(114, 14, 172);
+}
+.Section3 .section-three .content div ul {
+  width: 80%;
+  padding-left: 6%;
+  padding-right: 1%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  list-style: none;
+}
+.Section3 .section-three .content div ul li {
+  list-style: inside;
+  width: 100%;
+}
+.Section3 .section-three .content div:last-child {
+  border: none;
 }/*# sourceMappingURL=style.css.map */
