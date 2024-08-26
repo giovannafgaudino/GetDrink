@@ -1,9 +1,11 @@
 function Section3() {
     return (
         <>
-            <div>
-                <h1>GetDrink</h1>
-            </div>
+            <main>
+                <div>
+                    getdrink
+                </div>
+            </main>
         </>
     )
 }
