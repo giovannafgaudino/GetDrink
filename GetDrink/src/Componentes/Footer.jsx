@@ -1,9 +1,12 @@
 function Footer(){
     return(
         <>
-            <div>
-                <h1>GetDrink</h1>
-            </div>
+            <footer>
+                <section>
+                    <p>Todos os Direitos Reservados ©
+                    <span> Feito por <a href="">Giovanna Franco</a></span></p>
+                </section>
+            </footer>
         </>
     )
 }

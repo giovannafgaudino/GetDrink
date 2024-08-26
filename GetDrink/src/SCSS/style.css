@@ -275,4 +275,20 @@ header nav .name-brand .slogan {
   padding-bottom: 5%;
   width: 30%;
   cursor: pointer;
+}
+
+footer {
+  background-color: #282c5d;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+footer section {
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

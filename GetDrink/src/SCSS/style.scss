@@ -255,3 +255,17 @@ header {
     }
   }
 }
+footer{
+    background-color: $color-light-purple;
+    @include mixins.py(1%, 1%);
+    section{
+        color: $color-white;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: $color-white;
+    }
+}
