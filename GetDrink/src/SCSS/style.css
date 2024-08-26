@@ -57,7 +57,7 @@ header nav .name-brand .slogan {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   padding-top: 2%;
-  padding-bottom: 5%;
+  padding-bottom: 4%;
 }
 .home .home-content .image {
   width: 80%;
@@ -102,4 +102,47 @@ header nav .name-brand .slogan {
   padding-top: 2%;
   padding-bottom: 2%;
   text-align: center;
+}
+
+.sobre {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+.sobre h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: rgb(114, 14, 172);
+}
+.sobre .sobre-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+.sobre .sobre-content .content {
+  display: grid;
+  grid-template-columns: 20% 70%;
+  align-items: center;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.sobre .sobre-content .content img {
+  width: 60%;
+  margin: 0 auto;
+}
+.sobre .sobre-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.sobre .sobre-footer .content {
+  align-items: center;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }/*# sourceMappingURL=style.css.map */

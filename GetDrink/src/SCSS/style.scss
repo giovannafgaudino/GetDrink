@@ -4,7 +4,7 @@ $color-light-purple: rgb(40, 44, 93);
 $color-purple: rgb(33, 30, 71);
 $color-dark-purple: rgb(27, 24, 60);
 $color-yellow: rgb(217, 233, 55);
-$color-purple-grape: rgb(65, 25, 88);
+$color-purple-grape: rgb(114, 14, 172);
 $color-black: black;
 
 * {
@@ -58,7 +58,7 @@ header {
     grid-template-columns: 1fr 1fr;
     align-items: center;
 
-    @include mixins.py(2%, 5%);
+    @include mixins.py(2%, 4%);
     .image {
       width: 80%;
       margin: 0 auto;
@@ -99,6 +99,43 @@ header {
           text-align: center;
         }
       }
+    }
+  }
+}
+.sobre {
+  width: 80%;
+  margin: 0 auto;
+  @include mixins.py(3%, 4%);
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: $color-purple-grape;
+  }
+  .sobre-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    @include mixins.py(3%, 2%);
+    .content {
+      display: grid;
+      grid-template-columns: 20% 70%;
+      align-items: center;
+      text-align: center;
+      @include mixins.py(2%, 2%);
+      img {
+        width: 60%;
+        margin: 0 auto;
+      }
+    }
+  }
+  .sobre-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    @include mixins.py(5%, 2%);
+    .content {
+      align-items: center;
+      text-align: center;
+      @include mixins.px(5%, 5%);
     }
   }
 }
