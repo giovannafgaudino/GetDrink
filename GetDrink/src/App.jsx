@@ -13,7 +13,7 @@ function App() {
   return (
     <>
 
-      <NavBar />
+      <NavBar/>
       <Section1 />
       <Section2 />
       <Section3 />
