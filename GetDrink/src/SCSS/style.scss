@@ -20,32 +20,84 @@ header {
   nav {
     width: 80%;
     margin: 0 auto;
-    @include mixins.py(1%, 1%);
+    @include mixins.py(1%, 0%);
     @include mixins.flex-default(row, space-between, justify-content);
-    .logo{
-        width: 20%;
-        img{
-            width: 50%;
-        }
+    .logo {
+      width: 20%;
+      img {
+        width: 50%;
+      }
     }
     .menu {
       @include mixins.flex-default(row, space-between, justify-content);
       align-items: center;
       width: 30%;
-      
     }
     .name-brand {
       align-items: center;
       text-align: center;
       font-size: 1.2rem;
-      font-weight: 650;
+      font-weight: 530;
       align-self: center;
       .name {
         font-size: 1.8rem;
-        font-weight: 450;
       }
-      .slogan{
+      .slogan {
         color: $color-yellow;
+      }
+    }
+  }
+}
+
+.home {
+  background-color: $color-light-purple;
+  .home-content {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    @include mixins.py(2%, 5%);
+    .image {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      color: $color-white;
+      font-size: 1.2rem;
+      img {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+    .content {
+      color: $color-white;
+      h1 {
+        font-weight: 530;
+        font-size: 1.5rem;
+      }
+      h1,
+      p,
+      h3,
+      button {
+        @include mixins.py(2%, 1%);
+        text-align: justify;
+      }
+      .button {
+        width: 50%;
+        @include mixins.py(2%, 2%);
+        button {
+          background-color: $color-yellow;
+          width: 100%;
+          border: none;
+          padding: 10%;
+          border-radius: 5px;
+          font-weight: 500;
+          font-size: 1.5rem;
+          cursor: pointer;
+          @include mixins.py(2%, 2%);
+          text-align: center;
+        }
       }
     }
   }

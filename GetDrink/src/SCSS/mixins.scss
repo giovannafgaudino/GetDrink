@@ -17,3 +17,11 @@
     padding-top: $pt;
     padding-bottom: $pb
 }
+@mixin mx($ml, $mr){
+    margin-left: $ml;
+    margin-right: $mr 
+}
+@mixin my($mt, $mb){
+    margin-top: $mt;
+    margin-bottom: $mb
+}

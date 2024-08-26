@@ -8,8 +8,8 @@ function NavBar() {
                         <img src={Logo} alt="" />
                     </div>
                     <div className="name-brand">
-                        <p className="name">Get Drink</p>
-                        <p className="slogan">Your Drink Anywhere</p>
+                        <p className="name">GET DRINK</p>
+                        <p className="slogan">YOUR DRINK ANYWHERE</p>
                     </div>
 
                     <div className="menu">
