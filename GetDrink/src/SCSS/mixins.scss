@@ -1,0 +1,19 @@
+@mixin pd-mg-default($pd-dafult, $mg-dafult) {
+    padding: $pd-dafult;
+    margin: $mg-dafult;
+}
+@mixin flex-default($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+
+}
+@mixin px($pl, $pr){
+    padding-left: $pl;
+    padding-right: $pr
+}
+@mixin py($pt, $pb){
+    padding-top: $pt;
+    padding-bottom: $pb
+}

@@ -1,0 +1,52 @@
+@use "mixins";
+$color-white: white;
+$color-light-purple: rgb(40, 44, 93);
+$color-purple: rgb(33, 30, 71);
+$color-dark-purple: rgb(27, 24, 60);
+$color-yellow: rgb(217, 233, 55);
+$color-purple-grape: rgb(65, 25, 88);
+$color-black: black;
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  // @include mixins.pd-mg-default(0, 0);
+}
+header {
+  height: max-content(100px, 100px);
+  background-color: $color-light-purple;
+  color: $color-white;
+  nav {
+    width: 80%;
+    margin: 0 auto;
+    @include mixins.py(1%, 1%);
+    @include mixins.flex-default(row, space-between, justify-content);
+    .logo{
+        width: 20%;
+        img{
+            width: 50%;
+        }
+    }
+    .menu {
+      @include mixins.flex-default(row, space-between, justify-content);
+      align-items: center;
+      width: 30%;
+      
+    }
+    .name-brand {
+      align-items: center;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 650;
+      align-self: center;
+      .name {
+        font-size: 1.8rem;
+        font-weight: 450;
+      }
+      .slogan{
+        color: $color-yellow;
+      }
+    }
+  }
+}

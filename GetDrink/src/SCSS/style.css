@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  height: max-content(100px, 100px);
+  background-color: rgb(40, 44, 93);
+  color: white;
+}
+header nav {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: justify-content;
+}
+header nav .logo {
+  width: 20%;
+}
+header nav .logo img {
+  width: 50%;
+}
+header nav .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: justify-content;
+  align-items: center;
+  width: 30%;
+}
+header nav .name-brand {
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 650;
+  align-self: center;
+}
+header nav .name-brand .name {
+  font-size: 1.8rem;
+  font-weight: 450;
+}
+header nav .name-brand .slogan {
+  color: rgb(217, 233, 55);
+}/*# sourceMappingURL=style.css.map */
